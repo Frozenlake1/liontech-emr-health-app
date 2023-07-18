@@ -11,10 +11,9 @@ pipeline{
             steps{
                 sh "echo 'clone latest code from github'"
                 sh "echo 'build  developing for dev environment for june17'"
-                git 'https://github.com/mcollins1010/liontech-emr-health-app.git'
+                git 'https://github.com/Frozenlake1/liontech-emr-health-app.git'
             }
         }
-
         stage('Test+build+package'){
             steps{
 
