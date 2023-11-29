@@ -8,7 +8,7 @@ pipeline{
 
     stages {
         stage('clonefromsourcecode'){
-            step{
+            steps{
                 sh "echo 'clone latest code from github'"
                 sh "echo 'build developing for dev environment'"
                 git 'https://github.com/Frozenlake1/liontech-emr-health-app.git'
